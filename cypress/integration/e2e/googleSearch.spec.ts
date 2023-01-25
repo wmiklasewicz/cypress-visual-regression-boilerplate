@@ -1,7 +1,7 @@
 import * as mainPage from '../../support/pageSelectors/mainPage';
 
 describe('Test basic function on the google page', () => {
-  context('Search for google is not defined yet', () => {
+  context('Google page is loaded', () => {
     beforeEach(() => {
       cy.visit('https://www.google.com/');
     });
