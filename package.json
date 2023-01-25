@@ -34,8 +34,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "cy:run:e2e": "currents run --record  --browser chrome --spec **/e2e/**",
-    "cy:run:visual-regression": "cypress run --record false --browser chrome --spec **/visual-regression/**",
+    "cy:run:e2e": "cypress run --browser chrome --spec **/e2e/**",
+    "cy:run:visual-regression": "cypress run --browser chrome --spec **/visual-regression/**",
     "cy:open": "cypress open",
     "prepare": "husky install"
   },
