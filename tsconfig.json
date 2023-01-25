@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "types": ["cypress", "node", "cypress-wait-until", "cypress-visual-regression"],
+    "noEmit": true,
+    "allowJs": true,
+    "outDir": "./dist/out-tsc",
+    "noImplicitAny": false,
+  },
+  "include": ["./**/*.ts", "/node_modules/cypress", "cypress/**/*"]
+}

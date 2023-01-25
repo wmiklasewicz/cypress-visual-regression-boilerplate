@@ -1,0 +1,5 @@
+node_modules
+test
+cypress.config.ts
+commitlint.config.js
+.eslintrc.js
